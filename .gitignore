@@ -1,0 +1,20 @@
+# Terraform state — contains secrets and live infrastructure references
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Provider plugins and local Terraform cache
+.terraform/
+.terraform.tfstate.lock.info
+
+# Variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+crash.*.log
+
+# SSH keys (just in case)
+*.pem
+id_rsa*
